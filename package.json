@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,7 +13,8 @@
     "next": "latest",
     "prop-types": "^15.8.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -25,5 +26,8 @@
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
