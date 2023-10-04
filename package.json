@@ -27,7 +27,5 @@
     "tailwindcss": "latest",
     "typescript": "latest"
   },
-  "engines": {
-    "node": "14.x"
-  }
+  
 }
